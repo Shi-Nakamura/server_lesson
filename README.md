@@ -1,0 +1,12 @@
+# comad list
+- i
+- escape
+- j
+- k 
+- h
+- l
+- :w
+- :wq
+- :q!
+- u
+- Ctrl + r
