@@ -1,0 +1,77 @@
+    1  ls
+    2  cd root/
+    3  ls
+    4  cd server_lesson/
+    5  ls
+    6  cd linux_practice2
+    7  ls
+    8  ls documents/
+    9  ls trash/
+   10  ls documents/
+   11  ls -la documents/
+   12  ls documents/gizumo.45.md
+   13  ls documents/gizumo45.md
+   14  ls
+   15  cd trash/
+   16  ls
+   17  touch aaa.txt
+   18  ls
+   19  rm aaa.txt 
+   20  ls
+   21  touch aaa.txt
+   22  mv aaa.txt 
+   23  ls
+   24  ls -a
+   25  cd gizumo20.md/
+   26  ls
+   27  cd ../
+   28  ls
+   29  rm aaa.txt 
+   30  ls -a ../documents/
+   31  git status
+   32  git log
+   33  touch aaa.txt
+   34  git status
+   35  git diff
+   36  git add .
+   37  git status
+   38  git reset HEAD
+   39  git status
+   40  ls
+   41  rm aaa.txt 
+   42  cd ../
+   43  rm -rf trash
+   44  ls
+   45  rm -rf documents
+   46  ls
+   47  mkdire documents
+   48  mkdir documents
+   49  mkdir trash
+   50  cd documents/
+   51  touch gizumo{1..50}.md
+   52  ls
+   53  mv gizumo{20..40}.md
+   54  ls
+   55  mv gizumo{20..40}.md ../trash
+   56  cd
+   57  ls 
+   58  cd server_lesson/
+   59  ls
+   60  cd linux_practice2
+   61  ls
+   62  cd trash/
+   63  ls
+   64  cd../
+   65  cd ../
+   66  touch .gitignore
+   67  ls
+   68  vi .gitignore
+   69  git status
+   70  touch exec_command.log
+   71  ls
+   72  vi .gitignore
+   73  rm exec_command.log
+   74  ls
+   75  history 300
+   76  touch exec_command.log
+   77  history 300 > exec_command.log
